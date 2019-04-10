@@ -3,11 +3,13 @@ package com.example;
 public class Variables {
 
     public static void main(String[] args) {
-        int firstNumber;
+        final int firstNumber;
         int secondNumber;
 
         firstNumber = 11;
         secondNumber = 20;
+
+        // firstNumber = 30;
 
         double average;
 
@@ -37,6 +39,6 @@ public class Variables {
 
         System.out.println(letter);
 
-        
+
     }
 }

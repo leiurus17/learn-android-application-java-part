@@ -3,17 +3,17 @@ package com.example;
 public class Variables {
 
     public static void main(String[] args) {
-        final int firstNumber;
+        final int FIRST_NUMBER;
         int secondNumber;
 
-        firstNumber = 11;
+        FIRST_NUMBER = 11;
         secondNumber = 20;
 
         // firstNumber = 30;
 
         double average;
 
-        average = (double) (firstNumber + secondNumber) / 2;
+        average = (double) (FIRST_NUMBER + secondNumber) / 2;
 
         System.out.println("Average: " + average);
 

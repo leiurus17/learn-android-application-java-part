@@ -14,5 +14,29 @@ public class Variables {
         average = (double) (firstNumber + secondNumber) / 2;
 
         System.out.println("Average: " + average);
+
+        String name;
+        String surname;
+
+        name = "John";
+        surname = "Rambo";
+
+        System.out.println(name + " " + surname);
+
+        boolean value;
+        value = false;
+
+        System.out.println(value);
+
+        char letter;
+        letter = 65;
+
+        System.out.println(letter);
+
+        letter = 'j';
+
+        System.out.println(letter);
+
+        
     }
 }

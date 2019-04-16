@@ -24,6 +24,9 @@ public class ReadingInput {
         String name;
         String surname;
 
+        // Consume the previous character
+        keyboard.nextLine();
+
         System.out.println("Please enter your name: ");
         name = keyboard.nextLine();
 

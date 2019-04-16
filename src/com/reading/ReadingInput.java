@@ -20,5 +20,16 @@ public class ReadingInput {
         double average = (firstNumber + secondNumber) / 2.0;
 
         System.out.println("The average is: " + average);
+
+        String name;
+        String surname;
+
+        System.out.println("Please enter your name: ");
+        name = keyboard.nextLine();
+
+        System.out.println("Please enter your surname: ");
+        surname = keyboard.nextLine();
+
+        System.out.println(name + " " + surname);
     }
 }

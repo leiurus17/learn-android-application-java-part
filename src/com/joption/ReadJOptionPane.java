@@ -14,21 +14,5 @@ public class ReadJOptionPane {
         System.out.println(name + " " + surname);
 
         JOptionPane.showMessageDialog(null, name + " " + surname);
-
-        int firstNumber;
-        int secondNumber;
-        String input;
-
-        input = JOptionPane.showInputDialog("Please enter the first number: ");
-        firstNumber = Integer.parseInt(input);
-        // firstNumber = Double.parseDouble(input);
-
-        input = JOptionPane.showInputDialog("Please enter the second number: ");
-        secondNumber = Integer.parseInt(input);
-
-        double average = (firstNumber + secondNumber) / 2.0;
-
-        JOptionPane.showMessageDialog(null, "The average is: " + average);
-
     }
 }

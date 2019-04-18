@@ -13,7 +13,13 @@ public class DecisionStructuresThree {
         mark = Integer.parseInt(input);
 
         if (mark < 50) {
-            JOptionPane.showMessageDialog(null, "You failed!");
+
+            if (mark >= 45) {
+                JOptionPane.showMessageDialog(null, "You can write re-assessment!");
+            } else {
+                JOptionPane.showMessageDialog(null, "You failed!");
+
+            }
         } else { // The user passed
 
             if (mark >= 75) {

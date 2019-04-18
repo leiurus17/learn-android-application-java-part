@@ -10,9 +10,16 @@ public class CompareStringsCompareTo {
 
         if (name1.compareTo(name2) == 0) {
             System.out.println("name 1 is equals to name 2");
-        } else {
-            System.out.println("Not the same!");
         }
+
+        if (name1.compareTo(name2) < 0) {
+            System.out.println("name 1 is first and name 2 is second");
+        }
+
+        if (name1.compareTo(name2) > 0) {
+            System.out.println("name 2 is first and name 1 is second");
+        }
+
         System.exit(0);
     }
 }

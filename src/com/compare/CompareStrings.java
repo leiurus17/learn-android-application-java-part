@@ -13,5 +13,6 @@ public class CompareStrings {
         } else {
             System.out.println("Not the same!");
         }
+        System.exit(0);
     }
 }

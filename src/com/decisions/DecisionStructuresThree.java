@@ -25,7 +25,7 @@ public class DecisionStructuresThree {
                 JOptionPane.showMessageDialog(null, "You passed!");
             }
         }
-        
+
         System.exit(0);
     }
 }
